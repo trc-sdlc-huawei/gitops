@@ -1,0 +1,11 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Rollout
+metadata:
+  name: service-a
+spec:
+  template:
+    spec:
+      containers:
+      - name: service-a
+        image: swr.tr-west-1.myhuaweicloud.com/trc-sdlc-prod/service-b:master-f4385b5
+    
