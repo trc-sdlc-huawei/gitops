@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: service-b
-        image: swr.tr-west-1.myhuaweicloud.com/trc-sdlc-prod/service-b:master-f4385b5
+        image: argoproj/rollouts-demo:blue
         ports:
         - containerPort: 8080
