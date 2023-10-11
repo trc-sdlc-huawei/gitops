@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: service-a
-        image: swr.tr-west-1.myhuaweicloud.com/trc-sdlc-prod/service-a:master-cf30c93
+        image: swr.tr-west-1.myhuaweicloud.com/trc-sdlc-prod/service-a:master-7c0d5eb
         imagePullPolicy: Always
         ports:
         - name: http
