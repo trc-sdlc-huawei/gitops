@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: service-a
-        image: swr.tr-west-1.myhuaweicloud.com/trc-sdlc-prod/service-a:master-4ccbf57
+        image: swr.tr-west-1.myhuaweicloud.com/trc-sdlc-prod/service-a:master-cf30c93
         ports:
         - containerPort: 8080
