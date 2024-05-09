@@ -18,4 +18,4 @@ spec:
       - name: service-b
         image: argoproj/rollouts-demo:green
         ports:
-        - containerPort: 80
+        - containerPort: 8080
