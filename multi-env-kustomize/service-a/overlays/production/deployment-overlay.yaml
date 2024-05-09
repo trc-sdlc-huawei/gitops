@@ -7,4 +7,4 @@ spec:
     spec:
       containers:
       - name: service-a
-        image: argoproj/rollouts-demo:yellow    
+        image: argoproj/rollouts-demo:red    
