@@ -3,9 +3,11 @@ kind: Service
 metadata:
   name: service-a
 spec:
+  type: NodePort
   ports:
   - port: 8080
     targetPort: http
+    nodePort: 8081
     protocol: TCP
     name: http
   selector:
